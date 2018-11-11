@@ -2116,19 +2116,13 @@ button {
   width: 100%;
   max-height: 780px;
 }
-.header-nav,
-.header-nav__2,
-.header-nav__3 {
+.header-nav {
   box-shadow: 0px 8px 10px -4px rgba(0,0,0,0.2);
 }
-.header-nav form,
-.header-nav__2 form,
-.header-nav__3 form {
+.header-nav form {
   display: inline-block;
 }
-.sort-list,
-.sort-list__2,
-.sort-list__3 {
+.sort-list {
   display: table;
   margin: 35px 0 45px;
   font-size: 1.25rem;
@@ -2137,16 +2131,12 @@ button {
   background-color: #fff;
   overflow: hidden;
 }
-.sort-list li,
-.sort-list__2 li,
-.sort-list__3 li {
+.sort-list li {
   position: relative;
   display: table-cell;
   vertical-align: middle;
 }
-.sort-list li:after,
-.sort-list__2 li:after,
-.sort-list__3 li:after {
+.sort-list li:after {
   content: '';
   display: inline-block;
   position: absolute;
@@ -2157,30 +2147,20 @@ button {
   width: 13px;
   height: 7px;
 }
-.sort-list li:first-child,
-.sort-list__2 li:first-child,
-.sort-list__3 li:first-child {
+.sort-list li:first-child {
   padding-left: 20px;
 }
-.sort-list li:first-child:after,
-.sort-list__2 li:first-child:after,
-.sort-list__3 li:first-child:after {
+.sort-list li:first-child:after {
   display: none;
 }
-.sort-list li:last-child,
-.sort-list__2 li:last-child,
-.sort-list__3 li:last-child {
+.sort-list li:last-child {
   float: right;
   border: none;
 }
-.sort-list li:last-child:after,
-.sort-list__2 li:last-child:after,
-.sort-list__3 li:last-child:after {
+.sort-list li:last-child:after {
   display: none;
 }
-.sort-list select,
-.sort-list__2 select,
-.sort-list__3 select {
+.sort-list select {
   width: 100%;
   line-height: 2;
   padding-right: 40px;
@@ -2195,25 +2175,17 @@ button {
   color: #4e4e4e;
   cursor: pointer;
 }
-.sort-list span,
-.sort-list__2 span,
-.sort-list__3 span {
+.sort-list span {
   margin-right: 20px;
 }
-.sort-list label,
-.sort-list__2 label,
-.sort-list__3 label {
+.sort-list label {
   margin: 0;
 }
-.sort-list input,
-.sort-list__2 input,
-.sort-list__3 input {
+.sort-list input {
   width: 70px;
   border: none;
 }
-.sort-list .g-btn,
-.sort-list__2 .g-btn,
-.sort-list__3 .g-btn {
+.sort-list .g-btn {
   padding: 10px 40px;
   border: none;
   border-left: 1px solid #e1e1e1;
@@ -2222,14 +2194,10 @@ button {
   background-color: #ecca20;
   color: #fff;
 }
-.logo,
-.logo__2,
-.logo__3 {
+.logo {
   float: right;
 }
-.logo img,
-.logo__2 img,
-.logo__3 img {
+.logo img {
   max-width: 230px;
   min-height: 100px;
 }
@@ -2316,16 +2284,6 @@ footer a {
 }
 .popup-text {
   font-size: 16px;
-}
-@media screen and (max-width: 1700px) {
-  .sort-list__3 {
-    top: 35%;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .sort-list__3 {
-    top: 30%;
-  }
 }
 @media screen and (max-width: 1150px) {
   .header-nav {

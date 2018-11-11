@@ -2201,6 +2201,33 @@ button {
   max-width: 230px;
   min-height: 100px;
 }
+.header-nav__2 {
+  box-shadow: none;
+}
+.sort-list__2 {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.logo__2 {
+  float: none;
+  margin: 35px 0;
+  text-align: center;
+}
+.header-nav__3 {
+  box-shadow: none;
+}
+.sort-list__3 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo__3 {
+  float: right;
+  margin: 15px 0;
+}
 .katalog-sort {
   padding-top: 15px;
 }

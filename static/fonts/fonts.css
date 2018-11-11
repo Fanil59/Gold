@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "DINPro-Light";
+	src: url("DINPro-Light/DINPro-Light.eot");
+	src: url("DINPro-Light/DINPro-Light.eot?#iefix")format("embedded-opentype"),
+	url("DINPro-Light/DINPro-Light.woff") format("woff"),
+	url("DINPro-Light/DINPro-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
